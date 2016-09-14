@@ -1,19 +1,17 @@
 {
-  "name": "nodeforum",
-  "version": "1.0.0",
-  "description": "Very simple Reddit-esque type of application for Node.js, MongoDB, AngularJS, and Express.js.",
-  "main": "app.js",
+  "name": "flapper-news",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JordanDevelop/NodeForum.git"
-  },
-  "author": "Jordan Simpson",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JordanDevelop/NodeForum/issues"
-  },
-  "homepage": "https://github.com/JordanDevelop/NodeForum#readme"
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.4.1",
+    "express": "~4.13.4",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  }
 }

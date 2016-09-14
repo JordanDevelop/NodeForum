@@ -1,0 +1,19 @@
+{
+  "name": "nodeforum",
+  "version": "1.0.0",
+  "description": "Very simple Reddit-esque type of application for Node.js, MongoDB, AngularJS, and Express.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JordanDevelop/NodeForum.git"
+  },
+  "author": "Jordan Simpson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JordanDevelop/NodeForum/issues"
+  },
+  "homepage": "https://github.com/JordanDevelop/NodeForum#readme"
+}
